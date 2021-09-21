@@ -3,9 +3,9 @@ version: '3'
 services:
    db:
      build: 
-      context: ./mssql/
-      dockerfile: ./Dockerfile
-     container_name: sample-mssql-2017
+      context: .
+      dockerfile: Dockerfile
+     container_name: sample-sql-server
      ports:
       - "1433:1433"
      environment:
@@ -13,3 +13,4 @@ services:
       - SA_PASSWORD=password
      volumes:
       - ./backup:/var/opt/mssql/backup
+      - ./outputs:/usr/src/outputs
