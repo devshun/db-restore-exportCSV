@@ -30,7 +30,7 @@
 
 <br />
 
-4. 数分後コンテナの処理が終了し、db-restore-exportCSV/outputsディレクトリ内に以下の計10個のCSVファイルが出力されていることを確認。 
+4. 数分後コンテナの処理が終了し、db-restore-exportCSV/outputsディレクトリ内にのCSVファイルが出力されていることを確認。 
 
 # License
 MIT
